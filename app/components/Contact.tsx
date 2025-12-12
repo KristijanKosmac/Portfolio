@@ -36,11 +36,11 @@ export default function Contact() {
 
         <motion.div
           variants={item}
-          className="grid grid-cols-2 sm:grid-cols-4 gap-4 mb-12"
+          className="flex flex-wrap justify-center gap-4 mb-12"
         >
           <a
             href="mailto:Kosmac.kristijan@hotmail.com"
-            className="flex flex-col items-center gap-2 p-4 bg-slate-800 rounded-lg hover:bg-slate-700 transition-colors group"
+            className="w-1/4 flex flex-col items-center gap-2 p-4 bg-slate-800 rounded-lg hover:bg-slate-700 transition-colors group"
           >
             <FaEnvelope size={24} className="text-blue-400 group-hover:text-blue-300" />
             <span className="text-sm text-gray-300">Email</span>
@@ -48,7 +48,7 @@ export default function Contact() {
 
           <a
             href="tel:+38971338373"
-            className="flex flex-col items-center gap-2 p-4 bg-slate-800 rounded-lg hover:bg-slate-700 transition-colors group"
+            className="w-1/4 flex flex-col items-center gap-2 p-4 bg-slate-800 rounded-lg hover:bg-slate-700 transition-colors group"
           >
             <FaPhone size={24} className="text-blue-400 group-hover:text-blue-300" />
             <span className="text-sm text-gray-300">Phone</span>
@@ -58,7 +58,7 @@ export default function Contact() {
             href="https://www.linkedin.com/in/kristijan-kosmach-b6b89a1b9/"
             target="_blank"
             rel="noopener noreferrer"
-            className="flex flex-col items-center gap-2 p-4 bg-slate-800 rounded-lg hover:bg-slate-700 transition-colors group"
+            className="w-1/4 flex flex-col items-center gap-2 p-4 bg-slate-800 rounded-lg hover:bg-slate-700 transition-colors group"
           >
             <FaLinkedin size={24} className="text-blue-400 group-hover:text-blue-300" />
             <span className="text-sm text-gray-300">LinkedIn</span>
@@ -68,7 +68,7 @@ export default function Contact() {
             href="https://github.com/KristijanKosmac"
             target="_blank"
             rel="noopener noreferrer"
-            className="flex flex-col items-center gap-2 p-4 bg-slate-800 rounded-lg hover:bg-slate-700 transition-colors group"
+            className="w-1/4 flex flex-col items-center gap-2 p-4 bg-slate-800 rounded-lg hover:bg-slate-700 transition-colors group"
           >
             <FaGithub size={24} className="text-blue-400 group-hover:text-blue-300" />
             <span className="text-sm text-gray-300">GitHub</span>
